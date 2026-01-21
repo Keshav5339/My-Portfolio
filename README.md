@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-<img src=""></img>
+<img src="src\assets\demo video gif 2.gif"></img>
   </kbd>
 </p>
 
