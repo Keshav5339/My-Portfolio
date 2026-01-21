@@ -1,10 +1,22 @@
-# 🚀 My Portfolio Website
+# My Portfolio Website ⚡️
 
-**My-Portfolio** is a personal portfolio website built with React to showcase my software development projects, technical skills, and professional journey. It highlights my experience, projects, and contact information in a clean, modern layout — perfect for potential employers or collaborators to explore. :contentReference[oaicite:0]{index=0}
+## A clean, beautiful and responsive portfolio template for Developers!
+
+
+<p align="center">
+  <kbd>
+<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
+  </kbd>
+</p>
+
+
+Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
+
+Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request]().
 
 ---
 
-## Portfolio Sections
+## 🚀 Portfolio Sections
 - **Summary & About Me**: A professional overview of my background and goals.
 - **Technical Skills**: A visual representation of my tech stack and tools.
 - **Education & Experience**: A detailed timeline of my academic and professional career.
@@ -124,3 +136,4 @@ If you prefer to run the project in a container:
 
 
 ---
+
