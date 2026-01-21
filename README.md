@@ -29,3 +29,30 @@ The portfolio is built using:
 
 ## 📁 Project Structure
 
+├── public/
+│ └── index.html
+├── src/
+│ ├── components/
+│ ├── assets/
+│ ├── App.js
+│ ├── index.js
+│ └── styles/
+├── .gitignore
+├── package.json
+└── README.md
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+You will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) installed.
+
+```text
+Node.js: v14.0.0 or higher
+npm: v6.0.0 or higher
+
+--
+
+### 
+
