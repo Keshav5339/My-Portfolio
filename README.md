@@ -54,5 +54,11 @@ npm: v6.0.0 or higher
 
 --
 
-### 
+### Installation & Local Development
+
+1. Clone the repository:
+git clone [https://github.com/Keshav5339/My-Portfolio.git](https://github.com/Keshav5339/My-Portfolio.git)
+cd My-Portfolio
+
+
 
