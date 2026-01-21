@@ -5,7 +5,9 @@ labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: Please fill out each section below. This info allows maintainers to diagnose (and fix!) your issue as quickly as possible. Before opening a new issue, please search existing issues [here](https://github.com/saadpasta/developerFolio/issues).
+      value: |
+        Please fill out each section below. This info allows me to diagnose and fix your issue as quickly as possible. 
+        Before opening a new issue, please search existing issues [here](https://github.com/Keshav5339/My-Portfolio/issues).
 
   - type: textarea
     id: description
@@ -36,10 +38,16 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
+    id: responsiveness
     attributes:
-      label: Is this responsiveness Issue
-      description: Write YES/NO in the box below
+      label: Is this a responsiveness issue?
+      description: Does the bug only happen on specific screen sizes?
+      options:
+        - "No"
+        - "Yes (Mobile)"
+        - "Yes (Tablet)"
+        - "Yes (Desktop/Large Screen)"
     validations:
       required: true
 
@@ -47,34 +55,36 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: Please add screenshots if applicable
+      description: Please drag and drop or paste screenshots here if applicable.
     validations:
       required: false
 
   - type: textarea
+    id: desktop-info
     attributes:
-      label: Desktop
-      description: Please complete the following information
+      label: Desktop Environment
+      description: Please complete the following information if the bug happened on a PC/Laptop.
       value: |
-        - OS: [e.g. iOS]
-        - Browser: [e.g. chrome, safari]
-        - Version: [e.g. 22]
+        - OS: [e.g. Windows, macOS]
+        - Browser: [e.g. Chrome, Firefox]
+        - Version: [e.g. 120]
     validations:
       required: false
 
   - type: textarea
+    id: mobile-info
     attributes:
-      label: Smartphones
-      description: Please complete the following information
+      label: Smartphone Environment
+      description: Please complete the following information if the bug happened on a phone.
       value: |
-        - Device: [e.g. iPhone6]
-        - OS: [e.g. iOS8.1]
-        - Browser [e.g. stock browser, safari]
-        - Version [e.g. 22]
+        - Device: [e.g. iPhone 15, Pixel 8]
+        - OS: [e.g. iOS 17, Android 14]
+        - Browser: [e.g. Safari, Chrome Mobile]
     validations:
       required: false
 
   - type: textarea
+    id: context
     attributes:
       label: Additional context
       description: Add any other context about the problem here.

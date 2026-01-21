@@ -1,36 +1,36 @@
-name: 💡 Feature request
-description: Got a suggestion for a new idea/feature ?
+name: 🚀 Feature request
+description: Suggest an idea for this project
 labels: ["enhancement"]
+
 body:
   - type: textarea
-    id: summary
+    id: problem
     attributes:
-      label: Summary
-      description: A brief explanation of the feature.
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
     validations:
       required: true
 
   - type: textarea
-    id: whatsnew
+    id: solution
     attributes:
-      label: What's new?
-      description: If the proposal involves a new component or a redesign of a previous component.
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
     validations:
       required: true
 
   - type: textarea
-    id: motivation
+    id: alternatives
     attributes:
-      label: Motivation
-      description: Why are we doing this? What use cases does it support? What is the expected outcome?
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
     validations:
-      required: true
+      required: false
 
   - type: textarea
-    id: extrainfo
+    id: context
     attributes:
       label: Additional context
       description: Add any other context or screenshots about the feature request here.
     validations:
       required: false
-
