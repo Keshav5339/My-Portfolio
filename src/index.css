@@ -1,9 +1,4 @@
-* {
-  font-size: 16px !important;
-  transform: none !important;
-}
-
-html {
+*html {
   font-size: 16px; /* force browser default */
 }
 
