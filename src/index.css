@@ -18,6 +18,13 @@ body {
   overflow-x: hidden;
 }
 
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 @font-face {
   font-family: "Agustina Regular";
   font-style: normal;
