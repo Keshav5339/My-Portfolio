@@ -141,7 +141,7 @@ const educationInfo = {
       duration: "September 2022 - August 2026",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ""
       ]
     },
     {
@@ -151,7 +151,7 @@ const educationInfo = {
       duration: "March 2021 - March 2022",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ""
       ]
     },
   ]
@@ -183,7 +183,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Team Management",
@@ -212,7 +212,7 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/airbnb2.png"),
       date: "",
-      desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem.",
+      desc: "",
     }
   ]
 };
