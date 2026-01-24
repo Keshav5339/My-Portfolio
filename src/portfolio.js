@@ -183,7 +183,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Team Management",
@@ -212,7 +212,7 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/airbnb2.png"),
       date: "",
-      desc: ""
+      desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem.",
     }
   ]
 };
