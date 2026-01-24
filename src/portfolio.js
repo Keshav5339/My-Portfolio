@@ -212,7 +212,7 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/airbnb2.png"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: ""
     }
   ]
 };
