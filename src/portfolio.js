@@ -140,9 +140,9 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Computer Science & Engineering",
       duration: "September 2022 - August 2026",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        ""
-      ]
+      // descBullets: [
+      //   ""
+      // ]
     },
     {
       schoolName: "GR Global Academy",
@@ -150,9 +150,9 @@ const educationInfo = {
       subHeader: "Senior Secondary Education",
       duration: "March 2021 - March 2022",
       // desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        ""
-      ]
+      // descBullets: [
+      //   ""
+      // ]
     },
   ]
 };
