@@ -183,25 +183,29 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "",
-      company: "",
-      companylogo: require("./assets/images/facebook2.png"),
+      role: "Team Management",
+      company: "TribeVibe",
+      companylogo: require("./assets/images/TribeVibe logo.png"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Part of the on-ground management team at Vibin Fest 2023, Jaipur, managing crowd flow and live operations for smooth event execution.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Coordinated with multiple teams for scheduling and real-time issue handling.",
+        "Managed crowd movement to ensure safety and seamless event flow."
       ]
     },
     {
-      role: "",
-      company: "",
-      companylogo: require("./assets/images/quora2.png"),
+      role: "Coordinator",
+      company: "Jecrc University",
+      companylogo: require("./assets/images/JECRC LOGO2.png"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Served as the Event Coordinator for Amphibot, a technical robotics event at JECRC Rhythm 2023.",
+      descBullets: [
+        "Coordinated end-to-end execution of the Amphibot event, including setup, rules, and scheduling.",
+        "Managed participants, volunteers, and real-time event flow to ensure smooth and fair competition."
+      ]
     },
     {
       role: "",
