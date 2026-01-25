@@ -5,7 +5,7 @@
 
 <p align="center">
   <kbd>
-<img src="](https://github.com/user-attachments/assets/e46cce0c-b3b0-4144-bdcf-ec523cc71892)"></img>
+<img src="https://github.com/user-attachments/assets/e46cce0c-b3b0-4144-bdcf-ec523cc71892"></img>
   </kbd>
 </p>
 
