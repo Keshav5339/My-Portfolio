@@ -206,14 +206,15 @@ const workExperiences = {
         "Coordinated end-to-end execution of the Amphibot event, including setup, rules, and scheduling.",
         "Managed participants, volunteers, and real-time event flow to ensure smooth and fair competition."
       ]
-    },
-    {
-      role: "",
-      company: "",
-      companylogo: require("./assets/images/airbnb2.png"),
-      date: "",
-      desc: "",
     }
+    // ,
+    // {
+    //   role: "",
+    //   company: "",
+    //   companylogo: require("./assets/images/airbnb2.png"),
+    //   date: "",
+    //   desc: "",
+    // }
   ]
 };
 
