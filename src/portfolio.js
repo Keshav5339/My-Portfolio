@@ -3,8 +3,6 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
 
-
-
 // Splash Screen
 
 const splashScreen = {
@@ -12,7 +10,6 @@ const splashScreen = {
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
-
 
 // Summary And Greeting Section
 
@@ -31,7 +28,6 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-
 // Social Media Links
 
 const socialMediaLinks = {
@@ -47,7 +43,6 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
-
 // Skills Section
 
 const skillsSection = {
@@ -60,9 +55,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji(
-      "⚡ Integration of third party services such as Supabase ."
-    ),
+    emoji("⚡ Integration of third party services such as Supabase ."),
     emoji(
       "⚡ Implement real-time and AI-powered features to enhance user experiences"
     )
@@ -128,7 +121,6 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Education Section
 
 const educationInfo = {
@@ -138,7 +130,7 @@ const educationInfo = {
       schoolName: "JECRC University",
       logo: require("./assets/images/JECRC LOGO2.png"),
       subHeader: "Bachelor of Technology in Computer Science & Engineering",
-      duration: "September 2022 - August 2026",
+      duration: "September 2022 - August 2026"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: [
       //   ""
@@ -148,15 +140,14 @@ const educationInfo = {
       schoolName: "GR Global Academy",
       logo: require("./assets/images/gr gloal logo6.png"),
       subHeader: "Senior Secondary Education",
-      duration: "March 2021 - March 2022",
+      duration: "March 2021 - March 2022"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   ""
       // ]
-    },
+    }
   ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -178,7 +169,6 @@ const techStack = {
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
-
 
 // Work experience section
 
@@ -218,7 +208,6 @@ const workExperiences = {
   ]
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -236,7 +225,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Zenith logo2.png"),
       projectName: "Zenith",
-      projectDesc: "A modern, secure, and beautiful peer-to-peer video calling application built with React and WebRTC technology. Connect with anyone instantly without any intermediary servers storing your data.",
+      projectDesc:
+        "A modern, secure, and beautiful peer-to-peer video calling application built with React and WebRTC technology. Connect with anyone instantly without any intermediary servers storing your data.",
       footerLink: [
         {
           name: "Visit Website",
@@ -248,7 +238,8 @@ const bigProjects = {
     {
       image: require("./assets/images/NovaAi.png"),
       projectName: "Nova AI",
-      projectDesc: " NoVa AI is a smart, interactive web-based chatbot designed to provide real-time conversational responses through a clean and user-friendly interface. The project focuses on combining a modern frontend with a lightweight backend to deliver seamless AI-powered interactions.",
+      projectDesc:
+        " NoVa AI is a smart, interactive web-based chatbot designed to provide real-time conversational responses through a clean and user-friendly interface. The project focuses on combining a modern frontend with a lightweight backend to deliver seamless AI-powered interactions.",
       footerLink: [
         {
           name: "Visit Website",
@@ -259,7 +250,6 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -299,11 +289,15 @@ const achievementSection = {
 
     {
       title: "Game Development & Rapid Prototyping (Game Jam)",
-      subtitle: "Participated in a hands-on Game Jam focused on game development fundamentals, rapid ideation, and collaborative problem-solving. Gained exposure to game design workflows and real-time development practices.",
+      subtitle:
+        "Participated in a hands-on Game Jam focused on game development fundamentals, rapid ideation, and collaborative problem-solving. Gained exposure to game design workflows and real-time development practices.",
       image: require("./assets/images/hackerearth logo2.png"),
       imageAlt: "Hacker Earth Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1lJhutg8Q0dS1YLfuMIo2gb83FIMH4lqa/view?usp=drive_link"}
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1lJhutg8Q0dS1YLfuMIo2gb83FIMH4lqa/view?usp=drive_link"
+        }
       ]
     }
   ],
@@ -334,8 +328,6 @@ const blogSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
-
 // Talks Sections
 
 const talkSection = {
@@ -351,11 +343,9 @@ const talkSection = {
       slides_url: "",
       event_url: ""
     }
-  ],
+  ]
   // display: true // Set false to hide this section, defaults to true
 };
-
-
 
 // intro Section
 
