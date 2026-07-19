@@ -156,15 +156,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "55%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -176,37 +176,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Team Management",
-      company: "TribeVibe",
-      companylogo: require("./assets/images/TribeVibe logo.png"),
-      date: "",
-      desc: "Part of the on-ground management team at Vibin Fest 2023, Jaipur, managing crowd flow and live operations for smooth event execution.",
+      role: "Software Development Engineer-Intern",
+      company: "Source.one",
+      companylogo: require("./assets/images/Sourceone_logo.png"),
+      date: "May 2026 - Aug 2026 ",
+      desc: "Contributed to the development and maintenance of internal web applications and business solutions using ReactJS, Node.js, MongoDB.",
       descBullets: [
-        "Coordinated with multiple teams for scheduling and real-time issue handling.",
-        "Managed crowd movement to ensure safety and seamless event flow."
+        "Collaborated with senior developers on scalable solutions, API integrations, and database operations for business-critical modules related to order management, pricing, and CRM processes.",
+        "Assisted in building new features, resolving bugs, and improving overall system performance, strengthening full-stack development skills in a fast-paced startup environment."
       ]
     },
     {
-      role: "Coordinator",
-      company: "Jecrc University",
-      companylogo: require("./assets/images/JECRC LOGO2.png"),
-      date: "",
-      desc: "Served as the Event Coordinator for Amphibot, a technical robotics event at JECRC Rhythm 2023.",
+      role: "Full Stack Developer Trainee",
+      company: "Toptenix Technologies",
+      companylogo: require("./assets/images/toptenix_logo.jpeg"),
+      date: "October 2025 - January 2026",
+      desc: "Completed a Full Stack Developer Training Program at Toptenix Technologies, building hands-on proficiency across the full stack with ReactJS, Tailwind CSS, and Node.js.",
       descBullets: [
-        "Coordinated end-to-end execution of the Amphibot event, including setup, rules, and scheduling.",
-        "Managed participants, volunteers, and real-time event flow to ensure smooth and fair competition."
+        "Built full-stack web applications using NodeJS for the backend and ReactJS with Tailwind CSS for the frontend.",
+        "Designed and integrated RESTful APIs, managed version control with Git & GitHub, and handled deployment and hosting of full-stack applications."
       ]
     }
-    // ,
-    // {
-    //   role: "",
-    //   company: "",
-    //   companylogo: require("./assets/images/airbnb2.png"),
-    //   date: "",
-    //   desc: "",
-    // }
   ]
 };
+
+// {
+//   role: "Team Management",
+//   company: "TribeVibe",
+//   companylogo: require("./assets/images/TribeVibe logo.png"),
+//   date: "",
+//   desc: "Part of the on-ground management team at Vibin Fest 2023, Jaipur, managing crowd flow and live operations for smooth event execution.",
+//   descBullets: [
+//     "Coordinated with multiple teams for scheduling and real-time issue handling.",
+//     "Managed crowd movement to ensure safety and seamless event flow."
+//   ]
+// },
+// {
+//   role: "Coordinator",
+//   company: "Jecrc University",
+//   companylogo: require("./assets/images/JECRC LOGO2.png"),
+//   date: "",
+//   desc: "Served as the Event Coordinator for Amphibot, a technical robotics event at JECRC Rhythm 2023.",
+//   descBullets: [
+//     "Coordinated end-to-end execution of the Amphibot event, including setup, rules, and scheduling.",
+//     "Managed participants, volunteers, and real-time event flow to ensure smooth and fair competition."
+//   ]
+// }
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -299,6 +314,31 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1lJhutg8Q0dS1YLfuMIo2gb83FIMH4lqa/view?usp=drive_link"
         }
       ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Position of Responsibility Section
+
+const positionSection = {
+  title: "Position of Responsibility",
+  subtitle:
+    "Leadership and coordination roles I've taken up outside my regular work.",
+  positions: [
+    {
+      title: "Team Management, TribeVibe",
+      logo: require("./assets/images/TribeVibe logo.png"),
+      description:
+        "Part of the on-ground management team at Vibin Fest 2023, Jaipur, managing crowd flow and live operations for smooth event execution.",
+      url: ""
+    },
+    {
+      title: "Coordinator, JECRC University",
+      logo: require("./assets/images/JECRC LOGO2.png"),
+      description:
+        "Served as the Event Coordinator for Amphibot, a technical robotics event at JECRC Rhythm 2023.",
+      url: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -399,6 +439,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  positionSection,
   blogSection,
   talkSection,
   podcastSection,

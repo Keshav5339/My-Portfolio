@@ -1,0 +1,47 @@
+/*Position Cards Layout*/
+@import "../../_globalColor";
+
+.position-header-text {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.position-subtitle {
+  text-transform: uppercase;
+}
+.position-main-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.position-main-div {
+  display: flex;
+}
+.position-text-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 32px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .position-header-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .position-header-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .position-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .position-text-div {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
