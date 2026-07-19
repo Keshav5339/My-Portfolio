@@ -3,6 +3,7 @@ import {HashRouter, Routes, Route} from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
 import Resume from "./containers/resume/Resume";
+import {Analytics} from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="*" element={<Main />} />
         </Routes>
       </HashRouter>
+      <Analytics />
     </div>
   );
 }
